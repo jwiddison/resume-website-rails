@@ -1,8 +1,16 @@
 doctype html
 html
   head
+    title Jordan Widdison
+    = favicon_link_tag 'j.ico'
+
     meta content="text/html; charset=UTF-8" http-equiv="Content-Type"
-    title ResumeWebsiteRails
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta content="True" name="HandheldFriendly"
+    meta content="320" name="MobileOptimized"
+    meta content="initial-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width" name="viewport"
+    meta content="yes" name="apple-mobile-web-app-capable"
+
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
