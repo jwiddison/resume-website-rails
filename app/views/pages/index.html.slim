@@ -23,14 +23,14 @@ nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
             span.fa.fa-github
 
 
-#top_cover.cover_image data-image-src="#{asset_url('macbook1.jpeg')}" data-parallax="scroll"
+#top_cover.cover_image data-image-src="#{asset_url('macbook1.jpg')}" data-parallax="scroll"
   .container
     .row
       .col-md-12.text-center
         #top_cover_text
           h1#main-header Hi
           a#link-down.page-scroll href="#about"
-            span#down_arrow.fa.fa-angle-double-down.animated.bounceInUp
+            span#down_arrow.fa.fa-angle-double-down
 #about
 .inverse_section
   .container
@@ -41,14 +41,14 @@ nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
 .container
   .row
     .col-md-12
-      h2 I'm a web and mobile developer
+      h2 I'm a Software Engineer
       hr
     .col-md-6
-      p.lead I'm currently working toward a Masters of Information Systems Management at Brigham Young University in Provo, Utah.
+      p.lead I recently completed a Masters degree in Information Systems Management at Brigham Young University in Provo, Utah.
       p.lead I'm very interested in both front and back-end web development, as well as mobile development for iOS.
       p.lead I also have experience with data communications, project management, and data-analytics.
     .col-md-5.col-md-offset-1
-      = image_tag("code.jpeg", class: "img-responsive center-block")
+      = image_tag("code_2.png", class: "img-responsive center-block")
 #about_cover.cover_image data-image-src="#{asset_url('jazz2.jpg')}" data-parallax="scroll"
   .container
     .row
@@ -66,7 +66,7 @@ nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
         p.lead I love jazz music. I play soprano, alto tenor, and baritone saxophone, flute, clarinet, and piano. I love playing jazz for a lot of the same reasons that I love programming, software development, and web design. It's nice to have two outlets for the same type of creativity.
         p.lead I've traveled to Europe to play in jazz festivals in Scandavia and the Baltics, and have worked hard to be able to compete and perform with any jazz musician at a professional level in the state of Utah.
 #resume
-.cover_image data-image-src="#{asset_url('macbook2.jpeg')}" data-parallax="scroll"
+.cover_image data-image-src="#{asset_url('macbook2.jpg')}" data-parallax="scroll"
   .container
     .row
       .col-md-12.text-left
@@ -76,47 +76,47 @@ nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
     .col-md-12.resume-section
       #resume-download.text-center
         a aria-hidden="true" href="files/Jordan Widdison Resume.pdf" style="font-size:3em" target="_blank"
-          /! <i class="fa fa-file-pdf-o"></i
-          /! TODO: Decide!!
-          i.fa.fa-download
+          i.fa.fa-cloud-download
         h4 Download
-        hr/
-      /! Education
+        hr
+
+      / Education
       h1.text-primary Education
-      hr/
-      h3 Brigham Young University - Marriott School of Management
-      p Expected Graduation April 2018
+      hr
+      h3 Brigham Young University - Marriott School of Business
+      p April 2018
       ul
-        li Masters of Information Systems Management with a minor in Music
-        li 3.92 Major GPA
-        li Dean's List, Marriott School of Business
-      /! Skills
-      h1.text-primary Qualifications
-      hr/
-      h3 Skills
-      ul
-        li Front-end web development (JavaScript, HTML, CSS, Sass), Back-end web development (Ruby on Rails, Python, Django), Mobile Application Development (Swift/iOS), Database design and implementation, Java, C#, and Git
-        li Fluent Spanish speaker
-      h3 Relevant Coursework
-      ul
-        li Web application development, Data Structures, iOS mobile application development, machine learning, information security, data communications, technical project management, organizational behavior, managerial ethics, advanced database administration, systems analysis and design, enterprise infrastructure, and enterprise application development
+        li Masters of Information Systems Management (MISM), software development emphasis
+        li Bachelor of Science, Information Systems (BSIS), music minor
+        li 3.9 Major GPA
+        li Dean’s List, Marriott School of Business
+
+      / / Skills
+      / h1.text-primary Qualifications
+      / hr
+      / h3 Skills
+      / ul
+      /   li Front-end web development (JavaScript, HTML, CSS, Sass), Back-end web development (Ruby on Rails, Python, Django), Mobile Application Development (Swift/iOS), Database design and implementation, Java, C#, and Git
+      /   li Fluent Spanish speaker
+      / h3 Relevant Coursework
+      / ul
+      /   li Web application development, Data Structures, iOS mobile application development, machine learning, information security, data communications, technical project management, organizational behavior, managerial ethics, advanced database administration, systems analysis and design, enterprise infrastructure, and enterprise application development
+
       /! Experience
       h1.text-primary Experience
-      hr/
+      hr
       h3 Independent Contractor &amp; Freelance Software Engineer
       p
-        i> September 2017 - Present
-        |    |   
-        i> Dressing Your Truth
-        |    |   
-        i Migojo Technologies
+        i September 2017 - Present
+        span.pipe |
+        i Orem, Utah
       ul
         li Worked on-site with clients to create custom web applications primarily in Ruby on Rails and JavaScript
         li Guided clients when making decisions about which technologies would best meet their needs
       h3 Software Engineer - Jarvis Ventures
       p
-        i> March 2017 - September 2017
-        |    |   
+        i March 2017 - September 2017
+        span.pipe |
         i Orem, Utah
       ul
         li Designed database architecture and developed custom web applications in Ruby on Rails
@@ -173,7 +173,7 @@ nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
         li Trained and oversaw transportation and assignments of over 200 volunteer missionaries
         li Taught Gospel-related topics to people in Bolivia and lived there for two years
 #contact
-.cover_image.parallax-window data-image-src="#{asset_url('iphone.jpeg')}" data-parallax="scroll"
+.cover_image.parallax-window data-image-src="#{asset_url('iphone.jpg')}" data-parallax="scroll"
   .container
     .row
       .col-md-12.white
