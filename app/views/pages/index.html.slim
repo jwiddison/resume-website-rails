@@ -1,0 +1,245 @@
+nav#mainNav.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header
+      button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="/"  Jordan Widdison
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.page-scroll href="#about"  About Me
+        li
+          a.page-scroll href="#resume"  Resume
+        li
+          a.page-scroll href="#contact"  Contact
+        li
+          a#linkedin_button.btn.btn-social-icon.btn-linkedin href="https://www.linkedin.com/in/jordanwiddison" target="_blank"
+            span.fa.fa-linkedin
+        li
+          a#github_button.btn.btn-social-icon.btn-github href="https://github.com/jwiddison" target="_blank"
+            span.fa.fa-github
+
+
+#top_cover.cover_image data-image-src="#{asset_url('macbook1.jpeg')}" data-parallax="scroll"
+  .container
+    .row
+      .col-md-12.text-center
+        #top_cover_text
+          h1#main-header Hi
+          a#link-down.page-scroll href="#about"
+            span#down_arrow.fa.fa-angle-double-down.animated.bounceInUp
+#about
+.inverse_section
+  .container
+    .row
+      .col-md-12.text-center
+        h1 Thanks for stopping by
+        hr
+.container
+  .row
+    .col-md-12
+      h2 I'm a web and mobile developer
+      hr
+    .col-md-6
+      p.lead I'm currently working toward a Masters of Information Systems Management at Brigham Young University in Provo, Utah.
+      p.lead I'm very interested in both front and back-end web development, as well as mobile development for iOS.
+      p.lead I also have experience with data communications, project management, and data-analytics.
+    .col-md-5.col-md-offset-1
+      = image_tag("code.jpeg", class: "img-responsive center-block")
+#about_cover.cover_image data-image-src="#{asset_url('jazz2.jpg')}" data-parallax="scroll"
+  .container
+    .row
+      .col-md-12.text-left.white
+        p.photo-caption Saulkrasti Jazz Festival - Latvia - July 2016
+.inverse_section
+  .container
+    .row
+      .col-md-12
+        h2 I'm a jazz saxophonist
+        hr
+      .col-md-4
+        = image_tag("jazz.jpg", class: "img-responsive center-block", id: "jazz-photo")
+      .col-md-8
+        p.lead I love jazz music. I play soprano, alto tenor, and baritone saxophone, flute, clarinet, and piano. I love playing jazz for a lot of the same reasons that I love programming, software development, and web design. It's nice to have two outlets for the same type of creativity.
+        p.lead I've traveled to Europe to play in jazz festivals in Scandavia and the Baltics, and have worked hard to be able to compete and perform with any jazz musician at a professional level in the state of Utah.
+#resume
+.cover_image data-image-src="#{asset_url('macbook2.jpeg')}" data-parallax="scroll"
+  .container
+    .row
+      .col-md-12.text-left
+        h1 Resume
+.container
+  .row
+    .col-md-12.resume-section
+      #resume-download.text-center
+        a aria-hidden="true" href="files/Jordan Widdison Resume.pdf" style="font-size:3em" target="_blank"
+          /! <i class="fa fa-file-pdf-o"></i
+          /! TODO: Decide!!
+          i.fa.fa-download
+        h4 Download
+        hr/
+      /! Education
+      h1.text-primary Education
+      hr/
+      h3 Brigham Young University - Marriott School of Management
+      p Expected Graduation April 2018
+      ul
+        li Masters of Information Systems Management with a minor in Music
+        li 3.92 Major GPA
+        li Dean's List, Marriott School of Business
+      /! Skills
+      h1.text-primary Qualifications
+      hr/
+      h3 Skills
+      ul
+        li Front-end web development (JavaScript, HTML, CSS, Sass), Back-end web development (Ruby on Rails, Python, Django), Mobile Application Development (Swift/iOS), Database design and implementation, Java, C#, and Git
+        li Fluent Spanish speaker
+      h3 Relevant Coursework
+      ul
+        li Web application development, Data Structures, iOS mobile application development, machine learning, information security, data communications, technical project management, organizational behavior, managerial ethics, advanced database administration, systems analysis and design, enterprise infrastructure, and enterprise application development
+      /! Experience
+      h1.text-primary Experience
+      hr/
+      h3 Independent Contractor &amp; Freelance Software Engineer
+      p
+        i> September 2017 - Present
+        |    |   
+        i> Dressing Your Truth
+        |    |   
+        i Migojo Technologies
+      ul
+        li Worked on-site with clients to create custom web applications primarily in Ruby on Rails and JavaScript
+        li Guided clients when making decisions about which technologies would best meet their needs
+      h3 Software Engineer - Jarvis Ventures
+      p
+        i> March 2017 - September 2017
+        |    |   
+        i Orem, Utah
+      ul
+        li Designed database architecture and developed custom web applications in Ruby on Rails
+        li Researched and implemented integrations with a variety of third-party libraries and APIs
+        li Consulted with clients about requirements and strategic direction for their projects
+      h3 Mobile Developer &amp; Research Assistant - BYU Information Systems Department
+      p
+        i January 2017 - July 2017
+        |    |   
+        i Provo, Utah
+      ul
+        li Procured foreign-language content for religious study-tool mobile application
+        li Localized mobile application for Spanish, Italian, and Portuguese languages
+      h3 Head of Technology - Widdison Turbine Service
+      p
+        i June 2008 - March 2017
+        |    |   
+        i Draper, Utah
+      ul
+        li Worked in end-to-end management of family-owned small business and integrated technology into day-to-day operations
+        li
+          | Assessed needs, and created and implemented technical solutions for business pain-points including automating payroll,
+          | disaster recovery, employee communication, and web presence (see
+          a href="http://widdisonturbine.com"  widdisonturbine.com
+          | )
+        li Experienced forklift and crane operator with CDL driving experience
+        li Worked as rig hand gaining practical experience working in the field
+      h3 Professional Saxophonist
+      p
+        i August 2008 - Present
+        |    |   
+        i Utah Area
+      ul
+        li Organized and coordinated performances at weddings, parties, restaurants, museums, and hotels
+        li Performed as lead saxophonist in various group configurations
+        li Traveled to Finland, Estonia, Latvia, Lithuania, and Sweden to perform with grammy-nominated jazz band
+      h3
+        | Volunteer Member of BYU Jazz Ensemble
+        a href="http://synthesis.byu.edu"  Synthesis
+      p
+        i January 2014 - August 2016
+        |    |   
+        i Provo, Utah
+      ul
+        li Performed on soprano, alto, and tenor saxophones, clarinet, and flute
+        li Ran weekly saxophone section rehearsals as saxophone section leader
+        li Toured with band to eastern United States, Finland, Estonia, Latvia, Lithuania, and Sweden
+      h3 Volunteer Representative - The Church of Jesus Christ of Latter-day Saints
+      p
+        i January 2011 - January 2013
+        |    |   
+        i Cochabamba, Bolivia
+      ul
+        li Trained and oversaw transportation and assignments of over 200 volunteer missionaries
+        li Taught Gospel-related topics to people in Bolivia and lived there for two years
+#contact
+.cover_image.parallax-window data-image-src="#{asset_url('iphone.jpeg')}" data-parallax="scroll"
+  .container
+    .row
+      .col-md-12.white
+        h1.text-center So
+        h4.text-center Let's talk
+/! Contact Form
+.inverse_section
+  .container
+    .row
+      .col-md-12.text-center
+        h3 Send me an email using the form below and I'll be in touch shortly
+    .row
+      .col-md-6.col-md-offset-3
+        form action="email.php" method="POST"
+          p
+            label for="id_name"  name
+            input#id_name.form-control name="name" placeholder="name" required="required" type="text" /
+          p
+            label for="id_email"  email address
+            input#id_email.form-control name="email" placeholder=("email address") required="required" type="email" /
+          p
+            label for="id_phone"  phone number
+            input#id_phone.form-control name="phone" placeholder=("phone number") required="required" type="tel" /
+          p
+            label for="id_message"  message
+            textarea#id_message.form-control name="message" placeholder="message" required="" rows="4"
+          .text-center
+            input.btn.btn-primary.formbutton type="submit" value="send" /
+            input.btn.btn-default.formbutton type="reset" value="clear" /
+  footer
+    .container
+      .row
+        .col-md-12
+          p Copyright © 2017 Jordan Widdison
+
+javascript:
+  (function($) {
+    "use strict"; // Start of use strict
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.page-scroll').bind('click', function(event) {
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+        scrollTop: ($($anchor.attr('href')).offset().top - 50)
+      }, 1250, 'easeInOutExpo');
+      event.preventDefault();
+    });
+
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({target: '.navbar-fixed-top', offset: 51});
+
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function() {
+      $('.navbar-toggle:visible').click();
+    });
+
+    // Offset for Main Navigation
+    $('#mainNav').affix({
+      offset: {
+        top: 100
+      }
+    })
+
+  })(jQuery); // End of use strict
+
+  document.getElementById('id_phone').addEventListener('input', function(e) {
+    var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+    e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3]? '-' + x[3]: '');
+  });

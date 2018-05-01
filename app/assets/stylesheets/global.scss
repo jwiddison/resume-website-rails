@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+
+body {
+  font-family:"Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 1.5em;
+}
+
+img {
+  margin-bottom: 3em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+footer {
+  font-size: .80em;
+}
+
+hr {
+  margin-bottom: 2em;
+}
+
+.navbar-inverse {
+  background-color:#203248;
+  border-bottom:none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #182535;
+}
+
+.row {
+  padding: 3em 0;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.cover_image {
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top_cover {
+  height: 55em;
+  margin-top: -7em;
+}
+
+h1#main-header, a#link-down > span {
+  color: #182535;
+}
+
+#top_cover_text {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  h1#main-header, a#link-down > span {
+    color: #FFFFFF;
+    margin-top: -400%;
+  }
+}
+
+#about_cover {
+  background-position: right center;
+}
+
+#down_arrow {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#jazz-photo {
+  max-height: 25em;
+}
+
+#down_arrow:hover {
+  color: #0081FF;
+}
+
+.photo-caption {
+  margin-top: -12em;
+}
+
+.inverse_section {
+  background-color: #203248;
+  color: #FFFFFF;
+}
+
+.text-primary {
+  margin-top: 2em;
+}
+
+.btn {
+  margin-top: 1em;
+}
+
+#linkedin_button, #github_button {
+  margin-top: 8px;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+#id_name, #id_phone, #id_email, #id_message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.formbutton {
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.resume-section h3 {
+  font-weight: bold;
+}
+
+.resume-section p {
+  color: #375C8C;
+}
+
+@media (max-width: 900px) {
+  #about_cover {
+    display: none;
+  }
+
+  #resume-download {
+    display: none;
+  }
+
+  #jazz-photo {
+    float: center;
+  }
+}
