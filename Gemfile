@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'slim-rails'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
+gem "font-awesome-rails"
+gem 'bootstrap-social-rails'
+gem 'jquery-easing-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
