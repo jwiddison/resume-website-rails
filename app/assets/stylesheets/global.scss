@@ -33,11 +33,18 @@ hr {
   background-color:#203248;
   border-bottom:none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  .navbar-brand {
+    color: white;
+  }
+
+  ul.navbar-nav {
+    a {
+      color: white;
+    }
+  }
 }
 
-.navbar-inverse .navbar-nav > .active > a {
-  background-color: #182535;
-}
 
 .row {
   padding: 3em 0;
